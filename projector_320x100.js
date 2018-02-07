@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"projector_320x100_atlas_", frames: [[0,394,728,90],[0,486,728,90],[0,302,728,90],[0,0,480,300]]}
+		{name:"projector_320x100_atlas_", frames: [[0,302,728,90],[0,486,728,90],[0,394,728,90],[0,0,480,300]]}
 ];
 
 
@@ -1019,7 +1019,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(239).to({_off:false},0).to({alpha:1},18).wait(67).to({alpha:0},11).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(257).to({_off:false},0).to({alpha:1},18).wait(49).to({alpha:0},11).wait(1));
 
 	// box
 	this.instance_8 = new lib.box();
